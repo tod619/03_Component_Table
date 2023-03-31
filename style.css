@@ -38,3 +38,11 @@ thead th {
     color: #fff;
     width: 25%;
 }
+
+tbody tr:nth-child(odd) {
+    background-color: #f8f9f8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+}
