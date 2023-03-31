@@ -16,4 +16,18 @@ body {
     font-family: 'inter', sans-serif;
     line-height: 1;
     color: #343a40;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 800px;
+    margin-top: 100px;
+    border: 1px solid #333;
+}
+
+th,
+td {
+    padding: 16px 24px;
+    text-align: left;
 }
